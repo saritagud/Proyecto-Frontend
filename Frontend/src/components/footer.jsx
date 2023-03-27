@@ -3,12 +3,15 @@ import {FaTelegramPlane,FaGithubSquare, FaInstagram, FaFacebook} from "react-ico
 function Footer(){
     return(
         <div>
-            <footer className="flex bg-verdeOscuro w-full h-14 ">
-                <p className="font-Urbanist text-1xl px-2">Copyright © 2023 chatUVM. </p>
-                <FaTelegramPlane className="text-3xl text-left px-2"/>
-                <FaGithubSquare className="text-3xl text-left px-2"/>
-                <FaInstagram className="text-3xl text-left px-2"/>
-                <FaFacebook className="text-3xl text-left px-2"/>
+            <footer className="flex items-center justify-between bg-verdeOscuro w-full h-14 ">
+                <p className="font-Urbanist text-1xl px-2 text-left">Copyright © 2023 chatUVM. </p>
+                <div className=" flex text-2xl">
+                   <a href=""><FaTelegramPlane className="mx-2"/></a> 
+                   <a href=""><FaGithubSquare className="mx-2"/></a> 
+                   <a href=""><FaInstagram className="mx-2"/></a> 
+                   <a href=""><FaFacebook  className="mx-2"/></a> 
+                </div>
+                
                 </footer>
         </div>
     );

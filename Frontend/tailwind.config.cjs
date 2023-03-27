@@ -8,7 +8,7 @@ module.exports = {
         verdeManzana: "#8FBF26",
         verdeOscuro: "#89A64B",
         verdeAmarillo: "#E2F2A7",
-        grisClaro: "#F2F2F2",
+        grisClaro: "#A7A7A7",
       },
       fontFamily: {
         signikaNegative: ["Signika Negative", "sans-serif"],
